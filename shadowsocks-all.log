@@ -1,0 +1,1969 @@
+[3J[H[2JWhich Shadowsocks server you'd select:
+[0;32m1[0m) Shadowsocks-Python
+[0;32m2[0m) ShadowsocksR
+[0;32m3[0m) Shadowsocks-Go
+[0;32m4[0m) Shadowsocks-libev
+Please enter a number (Default Shadowsocks-Python):
+You choose = Shadowsocks-libev
+
+Please enter password for Shadowsocks-libev
+(Default password: teddysun.com):
+password = xs76981364
+
+Please enter a port for Shadowsocks-libev [1-65535]
+(Default port: 19996):
+port = 7698
+
+Please select stream cipher for Shadowsocks-libev:
+[0;32m1[0m) aes-256-gcm
+[0;32m2[0m) aes-192-gcm
+[0;32m3[0m) aes-128-gcm
+[0;32m4[0m) aes-256-ctr
+[0;32m5[0m) aes-192-ctr
+[0;32m6[0m) aes-128-ctr
+[0;32m7[0m) aes-256-cfb
+[0;32m8[0m) aes-192-cfb
+[0;32m9[0m) aes-128-cfb
+[0;32m10[0m) camellia-128-cfb
+[0;32m11[0m) camellia-192-cfb
+[0;32m12[0m) camellia-256-cfb
+[0;32m13[0m) xchacha20-ietf-poly1305
+[0;32m14[0m) chacha20-ietf-poly1305
+[0;32m15[0m) chacha20-ietf
+[0;32m16[0m) chacha20
+[0;32m17[0m) salsa20
+[0;32m18[0m) rc4-md5
+Which cipher you'd select(Default: aes-256-gcm):
+cipher = aes-256-gcm
+
+[[0;32mInfo[0m] Starting install package autoconf
+Do you want install simple-obfs for Shadowsocks-libev? [y/n]
+(default: n):
+You choose = y
+
+Please select obfs for simple-obfs:
+[0;32m1[0m) http
+[0;32m2[0m) tls
+Which obfs you'd select(Default: http):
+obfs = http
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Get:1 http://mirrors.digitalocean.com/ubuntu bionic InRelease [242 kB]
+Hit:2 http://mirrors.digitalocean.com/ubuntu bionic-updates InRelease
+Hit:3 http://mirrors.digitalocean.com/ubuntu bionic-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Fetched 242 kB in 1s (375 kB/s)
+Reading package lists...
+[[0;32mInfo[0m] Starting to install package gettext
+[[0;32mInfo[0m] Starting to install package build-essential
+[[0;32mInfo[0m] Starting to install package unzip
+[[0;32mInfo[0m] Starting to install package gzip
+[[0;32mInfo[0m] Starting to install package python
+[[0;32mInfo[0m] Starting to install package python-dev
+[[0;32mInfo[0m] Starting to install package python-setuptools
+[[0;32mInfo[0m] Starting to install package curl
+[[0;32mInfo[0m] Starting to install package openssl
+[[0;32mInfo[0m] Starting to install package libssl-dev
+[[0;32mInfo[0m] Starting to install package autoconf
+[[0;32mInfo[0m] Starting to install package automake
+[[0;32mInfo[0m] Starting to install package libtool
+[[0;32mInfo[0m] Starting to install package gcc
+[[0;32mInfo[0m] Starting to install package make
+[[0;32mInfo[0m] Starting to install package perl
+[[0;32mInfo[0m] Starting to install package cpio
+[[0;32mInfo[0m] Starting to install package libpcre3
+[[0;32mInfo[0m] Starting to install package libpcre3-dev
+[[0;32mInfo[0m] Starting to install package zlib1g-dev
+[[0;32mInfo[0m] Starting to install package libev-dev
+[[0;32mInfo[0m] Starting to install package libc-ares-dev
+[[0;32mInfo[0m] Starting to install package git
+[[0;32mInfo[0m] Starting to install package qrencode
+shadowsocks-libev-3.3.1.tar.gz not found, download now...
+--2019-09-18 04:46:22--  https://github.com/shadowsocks/shadowsocks-libev/releases/download/v3.3.1/shadowsocks-libev-3.3.1.tar.gz
+Resolving github.com (github.com)... 13.229.188.59
+Connecting to github.com (github.com)|13.229.188.59|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/7177269/feea6100-bab9-11e9-8c22-de2c666b602f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190918T044622Z&X-Amz-Expires=300&X-Amz-Signature=8130d97502444e43e52bbab4e0350d9ec0123e98a0f98233710251ba600cb7dc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dshadowsocks-libev-3.3.1.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2019-09-18 04:46:22--  https://github-production-release-asset-2e65be.s3.amazonaws.com/7177269/feea6100-bab9-11e9-8c22-de2c666b602f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190918T044622Z&X-Amz-Expires=300&X-Amz-Signature=8130d97502444e43e52bbab4e0350d9ec0123e98a0f98233710251ba600cb7dc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dshadowsocks-libev-3.3.1.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.81.224
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.81.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10209988 (9.7M) [application/octet-stream]
+Saving to: ‘shadowsocks-libev-3.3.1.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  0%  105K 94s
+    50K .......... .......... .......... .......... ..........  1% 17.9M 47s
+   100K .......... .......... .......... .......... ..........  1%  212K 47s
+   150K .......... .......... .......... .......... ..........  2% 14.5M 35s
+   200K .......... .......... .......... .......... ..........  2%  216K 37s
+   250K .......... .......... .......... .......... ..........  3% 18.6M 31s
+   300K .......... .......... .......... .......... ..........  3% 22.9M 26s
+   350K .......... .......... .......... .......... ..........  4% 24.9M 23s
+   400K .......... .......... .......... .......... ..........  4%  216K 25s
+   450K .......... .......... .......... .......... ..........  5% 19.4M 23s
+   500K .......... .......... .......... .......... ..........  5% 8.97M 20s
+   550K .......... .......... .......... .......... ..........  6% 13.5M 19s
+   600K .......... .......... .......... .......... ..........  6% 13.2M 17s
+   650K .......... .......... .......... .......... ..........  7% 18.0M 16s
+   700K .......... .......... .......... .......... ..........  7%  231K 17s
+   750K .......... .......... .......... .......... ..........  8% 19.8M 16s
+   800K .......... .......... .......... .......... ..........  8% 17.6M 15s
+   850K .......... .......... .......... .......... ..........  9% 25.1M 14s
+   900K .......... .......... .......... .......... ..........  9% 23.2M 14s
+   950K .......... .......... .......... .......... .......... 10% 14.6M 13s
+  1000K .......... .......... .......... .......... .......... 10% 21.0M 12s
+  1050K .......... .......... .......... .......... .......... 11% 22.5M 12s
+  1100K .......... .......... .......... .......... .......... 11% 22.2M 11s
+  1150K .......... .......... .......... .......... .......... 12% 21.8M 11s
+  1200K .......... .......... .......... .......... .......... 12% 21.9M 10s
+  1250K .......... .......... .......... .......... .......... 13% 22.0M 10s
+  1300K .......... .......... .......... .......... .......... 13%  237K 11s
+  1350K .......... .......... .......... .......... .......... 14% 18.1M 10s
+  1400K .......... .......... .......... .......... .......... 14% 18.3M 10s
+  1450K .......... .......... .......... .......... .......... 15% 17.8M 9s
+  1500K .......... .......... .......... .......... .......... 15% 17.0M 9s
+  1550K .......... .......... .......... .......... .......... 16% 18.7M 9s
+  1600K .......... .......... .......... .......... .......... 16% 16.2M 8s
+  1650K .......... .......... .......... .......... .......... 17% 20.5M 8s
+  1700K .......... .......... .......... .......... .......... 17% 21.3M 8s
+  1750K .......... .......... .......... .......... .......... 18% 20.5M 8s
+  1800K .......... .......... .......... .......... .......... 18% 17.0M 7s
+  1850K .......... .......... .......... .......... .......... 19% 17.7M 7s
+  1900K .......... .......... .......... .......... .......... 19% 17.3M 7s
+  1950K .......... .......... .......... .......... .......... 20% 20.3M 7s
+  2000K .......... .......... .......... .......... .......... 20% 20.8M 7s
+  2050K .......... .......... .......... .......... .......... 21% 22.5M 6s
+  2100K .......... .......... .......... .......... .......... 21% 19.3M 6s
+  2150K .......... .......... .......... .......... .......... 22% 21.2M 6s
+  2200K .......... .......... .......... .......... .......... 22% 22.4M 6s
+  2250K .......... .......... .......... .......... .......... 23% 21.9M 6s
+  2300K .......... .......... .......... .......... .......... 23% 20.2M 6s
+  2350K .......... .......... .......... .......... .......... 24% 18.2M 5s
+  2400K .......... .......... .......... .......... .......... 24% 19.6M 5s
+  2450K .......... .......... .......... .......... .......... 25% 18.7M 5s
+  2500K .......... .......... .......... .......... .......... 25%  281K 6s
+  2550K .......... .......... .......... .......... .......... 26% 20.1M 5s
+  2600K .......... .......... .......... .......... .......... 26% 19.7M 5s
+  2650K .......... .......... .......... .......... .......... 27% 21.7M 5s
+  2700K .......... .......... .......... .......... .......... 27% 16.1M 5s
+  2750K .......... .......... .......... .......... .......... 28% 19.8M 5s
+  2800K .......... .......... .......... .......... .......... 28% 18.2M 5s
+  2850K .......... .......... .......... .......... .......... 29% 15.5M 5s
+  2900K .......... .......... .......... .......... .......... 29% 6.44M 5s
+  2950K .......... .......... .......... .......... .......... 30% 20.8M 4s
+  3000K .......... .......... .......... .......... .......... 30% 21.4M 4s
+  3050K .......... .......... .......... .......... .......... 31% 19.8M 4s
+  3100K .......... .......... .......... .......... .......... 31% 17.1M 4s
+  3150K .......... .......... .......... .......... .......... 32% 20.1M 4s
+  3200K .......... .......... .......... .......... .......... 32% 18.2M 4s
+  3250K .......... .......... .......... .......... .......... 33% 20.4M 4s
+  3300K .......... .......... .......... .......... .......... 33% 17.9M 4s
+  3350K .......... .......... .......... .......... .......... 34% 20.2M 4s
+  3400K .......... .......... .......... .......... .......... 34% 20.2M 4s
+  3450K .......... .......... .......... .......... .......... 35% 21.2M 4s
+  3500K .......... .......... .......... .......... .......... 35% 16.0M 4s
+  3550K .......... .......... .......... .......... .......... 36% 17.8M 3s
+  3600K .......... .......... .......... .......... .......... 36% 20.2M 3s
+  3650K .......... .......... .......... .......... .......... 37% 19.8M 3s
+  3700K .......... .......... .......... .......... .......... 37% 18.7M 3s
+  3750K .......... .......... .......... .......... .......... 38% 20.3M 3s
+  3800K .......... .......... .......... .......... .......... 38% 22.1M 3s
+  3850K .......... .......... .......... .......... .......... 39% 19.7M 3s
+  3900K .......... .......... .......... .......... .......... 39% 17.8M 3s
+  3950K .......... .......... .......... .......... .......... 40% 19.2M 3s
+  4000K .......... .......... .......... .......... .......... 40% 18.7M 3s
+  4050K .......... .......... .......... .......... .......... 41% 22.6M 3s
+  4100K .......... .......... .......... .......... .......... 41% 19.7M 3s
+  4150K .......... .......... .......... .......... .......... 42% 53.9M 3s
+  4200K .......... .......... .......... .......... .......... 42%  122M 3s
+  4250K .......... .......... .......... .......... .......... 43%  147M 3s
+  4300K .......... .......... .......... .......... .......... 43%  134M 3s
+  4350K .......... .......... .......... .......... .......... 44% 99.8M 3s
+  4400K .......... .......... .......... .......... .......... 44%  148M 2s
+  4450K .......... .......... .......... .......... .......... 45%  152M 2s
+  4500K .......... .......... .......... .......... .......... 45%  340K 3s
+  4550K .......... .......... .......... .......... .......... 46% 20.5M 2s
+  4600K .......... .......... .......... .......... .......... 46% 21.3M 2s
+  4650K .......... .......... .......... .......... .......... 47% 21.2M 2s
+  4700K .......... .......... .......... .......... .......... 47% 20.6M 2s
+  4750K .......... .......... .......... .......... .......... 48% 23.0M 2s
+  4800K .......... .......... .......... .......... .......... 48% 14.6M 2s
+  4850K .......... .......... .......... .......... .......... 49% 18.7M 2s
+  4900K .......... .......... .......... .......... .......... 49% 17.5M 2s
+  4950K .......... .......... .......... .......... .......... 50% 19.6M 2s
+  5000K .......... .......... .......... .......... .......... 50% 21.1M 2s
+  5050K .......... .......... .......... .......... .......... 51% 21.8M 2s
+  5100K .......... .......... .......... .......... .......... 51% 20.4M 2s
+  5150K .......... .......... .......... .......... .......... 52% 22.5M 2s
+  5200K .......... .......... .......... .......... .......... 52% 23.6M 2s
+  5250K .......... .......... .......... .......... .......... 53% 23.3M 2s
+  5300K .......... .......... .......... .......... .......... 53% 20.8M 2s
+  5350K .......... .......... .......... .......... .......... 54% 23.4M 2s
+  5400K .......... .......... .......... .......... .......... 54% 23.5M 2s
+  5450K .......... .......... .......... .......... .......... 55% 23.6M 2s
+  5500K .......... .......... .......... .......... .......... 55% 20.9M 2s
+  5550K .......... .......... .......... .......... .......... 56% 26.7M 2s
+  5600K .......... .......... .......... .......... .......... 56% 24.6M 2s
+  5650K .......... .......... .......... .......... .......... 57% 25.4M 2s
+  5700K .......... .......... .......... .......... .......... 57% 21.8M 2s
+  5750K .......... .......... .......... .......... .......... 58% 25.6M 2s
+  5800K .......... .......... .......... .......... .......... 58% 25.8M 2s
+  5850K .......... .......... .......... .......... .......... 59% 25.5M 2s
+  5900K .......... .......... .......... .......... .......... 59% 20.8M 1s
+  5950K .......... .......... .......... .......... .......... 60% 25.9M 1s
+  6000K .......... .......... .......... .......... .......... 60% 25.5M 1s
+  6050K .......... .......... .......... .......... .......... 61% 25.7M 1s
+  6100K .......... .......... .......... .......... .......... 61% 21.6M 1s
+  6150K .......... .......... .......... .......... .......... 62% 25.6M 1s
+  6200K .......... .......... .......... .......... .......... 62% 25.6M 1s
+  6250K .......... .......... .......... .......... .......... 63% 25.5M 1s
+  6300K .......... .......... .......... .......... .......... 63% 22.3M 1s
+  6350K .......... .......... .......... .......... .......... 64% 25.6M 1s
+  6400K .......... .......... .......... .......... .......... 64% 70.3M 1s
+  6450K .......... .......... .......... .......... .......... 65%  165M 1s
+  6500K .......... .......... .......... .......... .......... 65%  169M 1s
+  6550K .......... .......... .......... .......... .......... 66%  321K 1s
+  6600K .......... .......... .......... .......... .......... 66% 15.5M 1s
+  6650K .......... .......... .......... .......... .......... 67% 16.0M 1s
+  6700K .......... .......... .......... .......... .......... 67% 15.6M 1s
+  6750K .......... .......... .......... .......... .......... 68% 13.3M 1s
+  6800K .......... .......... .......... .......... .......... 68% 31.9M 1s
+  6850K .......... .......... .......... .......... .......... 69% 34.6M 1s
+  6900K .......... .......... .......... .......... .......... 69% 14.0M 1s
+  6950K .......... .......... .......... .......... .......... 70% 20.0M 1s
+  7000K .......... .......... .......... .......... .......... 70% 20.5M 1s
+  7050K .......... .......... .......... .......... .......... 71% 21.4M 1s
+  7100K .......... .......... .......... .......... .......... 71% 18.3M 1s
+  7150K .......... .......... .......... .......... .......... 72% 22.0M 1s
+  7200K .......... .......... .......... .......... .......... 72% 20.6M 1s
+  7250K .......... .......... .......... .......... .......... 73% 21.8M 1s
+  7300K .......... .......... .......... .......... .......... 73% 18.8M 1s
+  7350K .......... .......... .......... .......... .......... 74% 21.2M 1s
+  7400K .......... .......... .......... .......... .......... 74% 20.5M 1s
+  7450K .......... .......... .......... .......... .......... 75% 19.6M 1s
+  7500K .......... .......... .......... .......... .......... 75% 18.5M 1s
+  7550K .......... .......... .......... .......... .......... 76%  137M 1s
+  7600K .......... .......... .......... .......... .......... 76%  129M 1s
+  7650K .......... .......... .......... .......... .......... 77%  137M 1s
+  7700K .......... .......... .......... .......... .......... 77%  110M 1s
+  7750K .......... .......... .......... .......... .......... 78%  158M 1s
+  7800K .......... .......... .......... .......... .......... 78%  172M 1s
+  7850K .......... .......... .......... .......... .......... 79%  178M 1s
+  7900K .......... .......... .......... .......... .......... 79%  134M 1s
+  7950K .......... .......... .......... .......... .......... 80%  130M 1s
+  8000K .......... .......... .......... .......... .......... 80%  127M 1s
+  8050K .......... .......... .......... .......... .......... 81% 84.3M 1s
+  8100K .......... .......... .......... .......... .......... 81% 15.6M 1s
+  8150K .......... .......... .......... .......... .......... 82% 17.5M 1s
+  8200K .......... .......... .......... .......... .......... 82% 20.2M 1s
+  8250K .......... .......... .......... .......... .......... 83% 17.9M 0s
+  8300K .......... .......... .......... .......... .......... 83% 14.1M 0s
+  8350K .......... .......... .......... .......... .......... 84% 20.1M 0s
+  8400K .......... .......... .......... .......... .......... 84% 20.7M 0s
+  8450K .......... .......... .......... .......... .......... 85% 19.5M 0s
+  8500K .......... .......... .......... .......... .......... 85% 18.0M 0s
+  8550K .......... .......... .......... .......... .......... 86% 20.6M 0s
+  8600K .......... .......... .......... .......... .......... 86% 18.9M 0s
+  8650K .......... .......... .......... .......... .......... 87% 19.7M 0s
+  8700K .......... .......... .......... .......... .......... 87% 15.5M 0s
+  8750K .......... .......... .......... .......... .......... 88% 17.1M 0s
+  8800K .......... .......... .......... .......... .......... 88% 18.7M 0s
+  8850K .......... .......... .......... .......... .......... 89% 21.1M 0s
+  8900K .......... .......... .......... .......... .......... 89% 16.5M 0s
+  8950K .......... .......... .......... .......... .......... 90% 22.0M 0s
+  9000K .......... .......... .......... .......... .......... 90% 20.7M 0s
+  9050K .......... .......... .......... .......... .......... 91% 27.1M 0s
+  9100K .......... .......... .......... .......... .......... 91%  151M 0s
+  9150K .......... .......... .......... .......... .......... 92%  146M 0s
+  9200K .......... .......... .......... .......... .......... 92%  387K 0s
+  9250K .......... .......... .......... .......... .......... 93% 16.4M 0s
+  9300K .......... .......... .......... .......... .......... 93% 16.1M 0s
+  9350K .......... .......... .......... .......... .......... 94% 20.4M 0s
+  9400K .......... .......... .......... .......... .......... 94% 20.6M 0s
+  9450K .......... .......... .......... .......... .......... 95% 20.7M 0s
+  9500K .......... .......... .......... .......... .......... 95% 15.1M 0s
+  9550K .......... .......... .......... .......... .......... 96% 17.8M 0s
+  9600K .......... .......... .......... .......... .......... 96% 19.4M 0s
+  9650K .......... .......... .......... .......... .......... 97% 19.1M 0s
+  9700K .......... .......... .......... .......... .......... 97% 15.8M 0s
+  9750K .......... .......... .......... .......... .......... 98% 21.8M 0s
+  9800K .......... .......... .......... .......... .......... 98% 61.3M 0s
+  9850K .......... .......... .......... .......... .......... 99%  162M 0s
+  9900K .......... .......... .......... .......... .......... 99%  136M 0s
+  9950K .......... ..........                                 100%  157M=2.6s
+
+2019-09-18 04:46:26 (3.70 MB/s) - ‘shadowsocks-libev-3.3.1.tar.gz’ saved [10209988/10209988]
+
+shadowsocks-libev not found, download now...
+--2019-09-18 04:46:26--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.8.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.8.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2125 (2.1K) [text/plain]
+Saving to: ‘/etc/init.d/shadowsocks-libev’
+
+     0K ..                                                    100% 8.70M=0s
+
+2019-09-18 04:46:26 (8.70 MB/s) - ‘/etc/init.d/shadowsocks-libev’ saved [2125/2125]
+
+libsodium-1.0.17.tar.gz not found, download now...
+--2019-09-18 04:46:26--  https://github.com/jedisct1/libsodium/releases/download/1.0.17/libsodium-1.0.17.tar.gz
+Resolving github.com (github.com)... 13.229.188.59
+Connecting to github.com (github.com)|13.229.188.59|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/7710647/dc1c7380-1270-11e9-8988-73d1f4f8e639?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190918T044626Z&X-Amz-Expires=300&X-Amz-Signature=651b73a3be36afabc0ae446e506b8c0231261711fdaeeeea72fcb41e1ca95fdb&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.17.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2019-09-18 04:46:26--  https://github-production-release-asset-2e65be.s3.amazonaws.com/7710647/dc1c7380-1270-11e9-8988-73d1f4f8e639?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190918T044626Z&X-Amz-Expires=300&X-Amz-Signature=651b73a3be36afabc0ae446e506b8c0231261711fdaeeeea72fcb41e1ca95fdb&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.17.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.81.224
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.81.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1911910 (1.8M) [application/octet-stream]
+Saving to: ‘libsodium-1.0.17.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2%  215K 8s
+    50K .......... .......... .......... .......... ..........  5%  214K 8s
+   100K .......... .......... .......... .......... ..........  8%  216K 8s
+   150K .......... .......... .......... .......... .......... 10% 10.6M 6s
+   200K .......... .......... .......... .......... .......... 13% 19.5M 5s
+   250K .......... .......... .......... .......... .......... 16%  225K 5s
+   300K .......... .......... .......... .......... .......... 18% 8.82M 4s
+   350K .......... .......... .......... .......... .......... 21% 19.9M 3s
+   400K .......... .......... .......... .......... .......... 24% 15.9M 3s
+   450K .......... .......... .......... .......... .......... 26%  229K 3s
+   500K .......... .......... .......... .......... .......... 29% 14.7M 3s
+   550K .......... .......... .......... .......... .......... 32% 12.4M 2s
+   600K .......... .......... .......... .......... .......... 34% 18.6M 2s
+   650K .......... .......... .......... .......... .......... 37% 17.5M 2s
+   700K .......... .......... .......... .......... .......... 40% 13.5M 2s
+   750K .......... .......... .......... .......... .......... 42%  116M 2s
+   800K .......... .......... .......... .......... .......... 45%  233K 2s
+   850K .......... .......... .......... .......... .......... 48% 11.8M 1s
+   900K .......... .......... .......... .......... .......... 50% 16.7M 1s
+   950K .......... .......... .......... .......... .......... 53% 16.7M 1s
+  1000K .......... .......... .......... .......... .......... 56% 28.5M 1s
+  1050K .......... .......... .......... .......... .......... 58% 19.1M 1s
+  1100K .......... .......... .......... .......... .......... 61% 23.7M 1s
+  1150K .......... .......... .......... .......... .......... 64% 22.7M 1s
+  1200K .......... .......... .......... .......... .......... 66% 18.1M 1s
+  1250K .......... .......... .......... .......... .......... 69% 18.0M 1s
+  1300K .......... .......... .......... .......... .......... 72% 10.4M 1s
+  1350K .......... .......... .......... .......... .......... 74% 19.6M 0s
+  1400K .......... .......... .......... .......... .......... 77% 19.2M 0s
+  1450K .......... .......... .......... .......... .......... 80% 20.3M 0s
+  1500K .......... .......... .......... .......... .......... 83%  256K 0s
+  1550K .......... .......... .......... .......... .......... 85% 20.6M 0s
+  1600K .......... .......... .......... .......... .......... 88% 15.9M 0s
+  1650K .......... .......... .......... .......... .......... 91% 23.9M 0s
+  1700K .......... .......... .......... .......... .......... 93% 23.5M 0s
+  1750K .......... .......... .......... .......... .......... 96% 26.6M 0s
+  1800K .......... .......... .......... .......... .......... 99% 24.2M 0s
+  1850K .......... .......                                    100% 21.5M=1.6s
+
+2019-09-18 04:46:29 (1.12 MB/s) - ‘libsodium-1.0.17.tar.gz’ saved [1911910/1911910]
+
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for gcc option to accept ISO C99... none needed
+checking dependency style of gcc... gcc3
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for variable-length arrays... yes
+checking for __native_client__ defined... no
+checking for _FORTIFY_SOURCE defined... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking whether C compiler accepts -fPIC... yes
+checking whether C compiler accepts -fPIE... yes
+checking whether the linker accepts -pie... yes
+checking whether C compiler accepts -fno-strict-aliasing... yes
+checking whether C compiler accepts -fno-strict-overflow... yes
+checking whether C compiler accepts -fstack-protector... yes
+checking whether the linker accepts -fstack-protector... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wall... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra... yes
+checking for clang... no
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wshorten-64-to-32... no
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wsometimes-uninitialized... no
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wstrict-prototypes... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wstrict-prototypes -Wswitch-enum... yes
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wstrict-prototypes -Wswitch-enum -Wvariable-decl... no
+checking whether C compiler accepts -g -O2 -pthread -fvisibility=hidden -fPIC -fPIE -fno-strict-aliasing -fno-strict-overflow -fstack-protector -Wextra -Wbad-function-cast -Wcast-qual -Wdiv-by-zero -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wlogical-op -Wmaybe-uninitialized -Wmisleading-indentation -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wrestrict -Wstrict-prototypes -Wswitch-enum -Wwrite-strings... yes
+checking whether the linker accepts -Wl,-z,relro... yes
+checking whether the linker accepts -Wl,-z,now... yes
+checking whether the linker accepts -Wl,-z,noexecstack... yes
+checking whether segmentation violations can be caught when using the C compiler... yes
+checking whether SIGABRT can be caught when using the C compiler... yes
+checking for thread local storage (TLS) class... _Thread_local
+thread local storage is supported
+checking whether C compiler accepts -ftls-model=local-dynamic... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ar... (cached) ar
+checking whether C compiler accepts -mmmx... yes
+checking for MMX instructions set... yes
+checking whether C compiler accepts -mmmx... (cached) yes
+checking whether C compiler accepts -msse2... yes
+checking for SSE2 instructions set... yes
+checking whether C compiler accepts -msse2... (cached) yes
+checking whether C compiler accepts -msse3... yes
+checking for SSE3 instructions set... yes
+checking whether C compiler accepts -msse3... (cached) yes
+checking whether C compiler accepts -mssse3... yes
+checking for SSSE3 instructions set... yes
+checking whether C compiler accepts -mssse3... (cached) yes
+checking whether C compiler accepts -msse4.1... yes
+checking for SSE4.1 instructions set... yes
+checking whether C compiler accepts -msse4.1... (cached) yes
+checking whether C compiler accepts -mavx... yes
+checking for AVX instructions set... yes
+checking whether C compiler accepts -mavx... (cached) yes
+checking whether C compiler accepts -mavx2... yes
+checking for AVX2 instructions set... yes
+checking whether C compiler accepts -mavx2... (cached) yes
+checking if _mm256_broadcastsi128_si256 is correctly defined... yes
+checking whether C compiler accepts -mavx512f... yes
+checking for AVX512F instructions set... yes
+checking whether C compiler accepts -mavx512f... (cached) yes
+checking whether C compiler accepts -maes... yes
+checking whether C compiler accepts -mpclmul... yes
+checking for AESNI instructions set and PCLMULQDQ... yes
+checking whether C compiler accepts -maes... (cached) yes
+checking whether C compiler accepts -mpclmul... (cached) yes
+checking whether C compiler accepts -mrdrnd... yes
+checking for RDRAND... yes
+checking whether C compiler accepts -mrdrnd... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking intrin.h usability... no
+checking intrin.h presence... no
+checking for intrin.h... no
+checking if _xgetbv() is available... no
+checking for inline... inline
+checking whether byte ordering is bigendian... (cached) no
+checking whether __STDC_LIMIT_MACROS is required... no
+checking whether we can use inline asm code... yes
+no
+checking whether we can use x86_64 asm code... yes
+checking whether we can assemble AVX opcodes... yes
+checking for 128-bit arithmetic... yes
+checking for cpuid instruction... yes
+checking if the .private_extern asm directive is supported... no
+checking if the .hidden asm directive is supported... yes
+checking if weak symbols are supported... yes
+checking if data alignment is required... no
+checking if atomic operations are supported... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for arc4random... no
+checking for arc4random_buf... no
+checking for mmap... yes
+checking for mlock... yes
+checking for madvise... yes
+checking for mprotect... yes
+checking for memset_s... no
+checking for explicit_bzero... yes
+checking for explicit_memset... no
+checking for nanosleep... yes
+checking for posix_memalign... yes
+checking for getpid... yes
+checking if gcc/ld supports -Wl,--output-def... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating builds/Makefile
+config.status: creating contrib/Makefile
+config.status: creating dist-build/Makefile
+config.status: creating libsodium.pc
+config.status: creating libsodium-uninstalled.pc
+config.status: creating msvc-scripts/Makefile
+config.status: creating src/Makefile
+config.status: creating src/libsodium/Makefile
+config.status: creating src/libsodium/include/Makefile
+config.status: creating src/libsodium/include/sodium/version.h
+config.status: creating test/default/Makefile
+config.status: creating test/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in builds
+make[1]: Entering directory '/root/libsodium-1.0.17/builds'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/libsodium-1.0.17/builds'
+Making all in contrib
+make[1]: Entering directory '/root/libsodium-1.0.17/contrib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/libsodium-1.0.17/contrib'
+Making all in dist-build
+make[1]: Entering directory '/root/libsodium-1.0.17/dist-build'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/libsodium-1.0.17/dist-build'
+Making all in msvc-scripts
+make[1]: Entering directory '/root/libsodium-1.0.17/msvc-scripts'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/libsodium-1.0.17/msvc-scripts'
+Making all in src
+make[1]: Entering directory '/root/libsodium-1.0.17/src'
+Making all in libsodium
+make[2]: Entering directory '/root/libsodium-1.0.17/src/libsodium'
+Making all in include
+make[3]: Entering directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[3]: Entering directory '/root/libsodium-1.0.17/src/libsodium'
+  CC       crypto_aead/chacha20poly1305/sodium/libsodium_la-aead_chacha20poly1305.lo
+  CC       crypto_aead/xchacha20poly1305/sodium/libsodium_la-aead_xchacha20poly1305.lo
+  CC       crypto_auth/libsodium_la-crypto_auth.lo
+  CC       crypto_auth/hmacsha256/libsodium_la-auth_hmacsha256.lo
+  CC       crypto_auth/hmacsha512/libsodium_la-auth_hmacsha512.lo
+  CC       crypto_auth/hmacsha512256/libsodium_la-auth_hmacsha512256.lo
+  CC       crypto_box/libsodium_la-crypto_box.lo
+  CC       crypto_box/libsodium_la-crypto_box_easy.lo
+  CC       crypto_box/libsodium_la-crypto_box_seal.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/libsodium_la-box_curve25519xsalsa20poly1305.lo
+  CC       crypto_core/ed25519/ref10/libsodium_la-ed25519_ref10.lo
+  CC       crypto_core/hchacha20/libsodium_la-core_hchacha20.lo
+  CC       crypto_core/hsalsa20/ref2/libsodium_la-core_hsalsa20_ref2.lo
+  CC       crypto_core/hsalsa20/libsodium_la-core_hsalsa20.lo
+  CC       crypto_core/salsa/ref/libsodium_la-core_salsa_ref.lo
+  CC       crypto_generichash/libsodium_la-crypto_generichash.lo
+  CC       crypto_generichash/blake2b/libsodium_la-generichash_blake2.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-blake2b-compress-ref.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-blake2b-ref.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-generichash_blake2b.lo
+  CC       crypto_hash/libsodium_la-crypto_hash.lo
+  CC       crypto_hash/sha256/libsodium_la-hash_sha256.lo
+  CC       crypto_hash/sha256/cp/libsodium_la-hash_sha256_cp.lo
+  CC       crypto_hash/sha512/libsodium_la-hash_sha512.lo
+  CC       crypto_hash/sha512/cp/libsodium_la-hash_sha512_cp.lo
+  CC       crypto_kdf/blake2b/libsodium_la-kdf_blake2b.lo
+  CC       crypto_kdf/libsodium_la-crypto_kdf.lo
+  CC       crypto_kx/libsodium_la-crypto_kx.lo
+  CC       crypto_onetimeauth/libsodium_la-crypto_onetimeauth.lo
+  CC       crypto_onetimeauth/poly1305/libsodium_la-onetimeauth_poly1305.lo
+  CC       crypto_onetimeauth/poly1305/donna/libsodium_la-poly1305_donna.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-core.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-encoding.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-fill-block-ref.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2.lo
+  CC       crypto_pwhash/argon2/libsodium_la-blake2b-long.lo
+  CC       crypto_pwhash/argon2/libsodium_la-pwhash_argon2i.lo
+  CC       crypto_pwhash/argon2/libsodium_la-pwhash_argon2id.lo
+  CC       crypto_pwhash/libsodium_la-crypto_pwhash.lo
+  CC       crypto_scalarmult/libsodium_la-crypto_scalarmult.lo
+  CC       crypto_scalarmult/curve25519/ref10/libsodium_la-x25519_ref10.lo
+  CC       crypto_scalarmult/curve25519/libsodium_la-scalarmult_curve25519.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox_easy.lo
+  CC       crypto_secretbox/xsalsa20poly1305/libsodium_la-secretbox_xsalsa20poly1305.lo
+  CC       crypto_secretstream/xchacha20poly1305/libsodium_la-secretstream_xchacha20poly1305.lo
+  CC       crypto_shorthash/libsodium_la-crypto_shorthash.lo
+  CC       crypto_shorthash/siphash24/libsodium_la-shorthash_siphash24.lo
+  CC       crypto_shorthash/siphash24/ref/libsodium_la-shorthash_siphash24_ref.lo
+  CC       crypto_sign/libsodium_la-crypto_sign.lo
+  CC       crypto_sign/ed25519/libsodium_la-sign_ed25519.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-keypair.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-open.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-sign.lo
+  CC       crypto_stream/chacha20/libsodium_la-stream_chacha20.lo
+  CC       crypto_stream/chacha20/ref/libsodium_la-chacha20_ref.lo
+  CC       crypto_stream/libsodium_la-crypto_stream.lo
+  CC       crypto_stream/salsa20/libsodium_la-stream_salsa20.lo
+  CC       crypto_stream/xsalsa20/libsodium_la-stream_xsalsa20.lo
+  CC       crypto_verify/sodium/libsodium_la-verify.lo
+  CC       randombytes/libsodium_la-randombytes.lo
+  CC       sodium/libsodium_la-codecs.lo
+  CC       sodium/libsodium_la-core.lo
+  CC       sodium/libsodium_la-runtime.lo
+  CC       sodium/libsodium_la-utils.lo
+  CC       sodium/libsodium_la-version.lo
+  CPPAS    crypto_stream/salsa20/xmm6/libsodium_la-salsa20_xmm6-asm.lo
+  CC       crypto_stream/salsa20/xmm6/libsodium_la-salsa20_xmm6.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-curve25519_sandy2x.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe51_invert.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe_frombytes_sandy2x.lo
+  CPPAS    crypto_scalarmult/curve25519/sandy2x/libsodium_la-sandy2x.lo
+  CC       crypto_box/curve25519xchacha20poly1305/libsodium_la-box_curve25519xchacha20poly1305.lo
+  CC       crypto_box/curve25519xchacha20poly1305/libsodium_la-box_seal_curve25519xchacha20poly1305.lo
+  CC       crypto_core/ed25519/libsodium_la-core_ed25519.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-crypto_scrypt-common.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-scrypt_platform.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pbkdf2-sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pwhash_scryptsalsa208sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/nosse/libsodium_la-pwhash_scryptsalsa208sha256_nosse.lo
+  CC       crypto_scalarmult/ed25519/ref10/libsodium_la-scalarmult_ed25519_ref10.lo
+  CC       crypto_secretbox/xchacha20poly1305/libsodium_la-secretbox_xchacha20poly1305.lo
+  CC       crypto_shorthash/siphash24/libsodium_la-shorthash_siphashx24.lo
+  CC       crypto_shorthash/siphash24/ref/libsodium_la-shorthash_siphashx24_ref.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-obsolete.lo
+  CC       crypto_stream/salsa2012/ref/libsodium_la-stream_salsa2012_ref.lo
+  CC       crypto_stream/salsa2012/libsodium_la-stream_salsa2012.lo
+  CC       crypto_stream/salsa208/ref/libsodium_la-stream_salsa208_ref.lo
+  CC       crypto_stream/salsa208/libsodium_la-stream_salsa208.lo
+  CC       crypto_stream/xchacha20/libsodium_la-stream_xchacha20.lo
+  CC       randombytes/sysrandom/libsodium_la-randombytes_sysrandom.lo
+  CC       crypto_aead/aes256gcm/aesni/libaesni_la-aead_aes256gcm_aesni.lo
+  CCLD     libaesni.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       crypto_onetimeauth/poly1305/sse2/libsse2_la-poly1305_sse2.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/sse/libsse2_la-pwhash_scryptsalsa208sha256_sse.lo
+  CCLD     libsse2.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       crypto_generichash/blake2b/ref/libssse3_la-blake2b-compress-ssse3.lo
+  CC       crypto_pwhash/argon2/libssse3_la-argon2-fill-block-ssse3.lo
+  CC       crypto_stream/chacha20/dolbeau/libssse3_la-chacha20_dolbeau-ssse3.lo
+  CCLD     libssse3.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       crypto_generichash/blake2b/ref/libsse41_la-blake2b-compress-sse41.lo
+  CCLD     libsse41.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       crypto_generichash/blake2b/ref/libavx2_la-blake2b-compress-avx2.lo
+  CC       crypto_pwhash/argon2/libavx2_la-argon2-fill-block-avx2.lo
+  CC       crypto_stream/chacha20/dolbeau/libavx2_la-chacha20_dolbeau-avx2.lo
+  CC       crypto_stream/salsa20/xmm6int/libavx2_la-salsa20_xmm6int-avx2.lo
+  CCLD     libavx2.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       crypto_pwhash/argon2/libavx512f_la-argon2-fill-block-avx512f.lo
+  CCLD     libavx512f.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       randombytes/salsa20/librdrand_la-randombytes_salsa20_random.lo
+  CCLD     librdrand.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     libsodium.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/root/libsodium-1.0.17/src/libsodium'
+make[2]: Leaving directory '/root/libsodium-1.0.17/src/libsodium'
+make[2]: Entering directory '/root/libsodium-1.0.17/src'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/src'
+make[1]: Leaving directory '/root/libsodium-1.0.17/src'
+Making all in test
+make[1]: Entering directory '/root/libsodium-1.0.17/test'
+Making all in default
+make[2]: Entering directory '/root/libsodium-1.0.17/test/default'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/test/default'
+make[2]: Entering directory '/root/libsodium-1.0.17/test'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/test'
+make[1]: Leaving directory '/root/libsodium-1.0.17/test'
+make[1]: Entering directory '/root/libsodium-1.0.17'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/root/libsodium-1.0.17'
+Making install in builds
+make[1]: Entering directory '/root/libsodium-1.0.17/builds'
+make[2]: Entering directory '/root/libsodium-1.0.17/builds'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/builds'
+make[1]: Leaving directory '/root/libsodium-1.0.17/builds'
+Making install in contrib
+make[1]: Entering directory '/root/libsodium-1.0.17/contrib'
+make[2]: Entering directory '/root/libsodium-1.0.17/contrib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/contrib'
+make[1]: Leaving directory '/root/libsodium-1.0.17/contrib'
+Making install in dist-build
+make[1]: Entering directory '/root/libsodium-1.0.17/dist-build'
+make[2]: Entering directory '/root/libsodium-1.0.17/dist-build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/dist-build'
+make[1]: Leaving directory '/root/libsodium-1.0.17/dist-build'
+Making install in msvc-scripts
+make[1]: Entering directory '/root/libsodium-1.0.17/msvc-scripts'
+make[2]: Entering directory '/root/libsodium-1.0.17/msvc-scripts'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/libsodium-1.0.17/msvc-scripts'
+make[1]: Leaving directory '/root/libsodium-1.0.17/msvc-scripts'
+Making install in src
+make[1]: Entering directory '/root/libsodium-1.0.17/src'
+Making install in libsodium
+make[2]: Entering directory '/root/libsodium-1.0.17/src/libsodium'
+Making install in include
+make[3]: Entering directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[4]: Entering directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/sodium'
+ /usr/bin/install -c -m 644  sodium/core.h sodium/crypto_aead_aes256gcm.h sodium/crypto_aead_chacha20poly1305.h sodium/crypto_aead_xchacha20poly1305.h sodium/crypto_auth.h sodium/crypto_auth_hmacsha256.h sodium/crypto_auth_hmacsha512.h sodium/crypto_auth_hmacsha512256.h sodium/crypto_box.h sodium/crypto_box_curve25519xchacha20poly1305.h sodium/crypto_box_curve25519xsalsa20poly1305.h sodium/crypto_core_ed25519.h sodium/crypto_core_hchacha20.h sodium/crypto_core_hsalsa20.h sodium/crypto_core_salsa20.h sodium/crypto_core_salsa2012.h sodium/crypto_core_salsa208.h sodium/crypto_generichash.h sodium/crypto_generichash_blake2b.h sodium/crypto_hash.h sodium/crypto_hash_sha256.h sodium/crypto_hash_sha512.h sodium/crypto_kdf.h sodium/crypto_kdf_blake2b.h sodium/crypto_kx.h sodium/crypto_onetimeauth.h sodium/crypto_onetimeauth_poly1305.h sodium/crypto_pwhash.h sodium/crypto_pwhash_argon2i.h sodium/crypto_pwhash_argon2id.h sodium/crypto_pwhash_scryptsalsa208sha256.h sodium/crypto_scalarmult.h sodium/crypto_scalarmult_curve25519.h sodium/crypto_scalarmult_ed25519.h sodium/crypto_secretbox.h sodium/crypto_secretbox_xchacha20poly1305.h sodium/crypto_secretbox_xsalsa20poly1305.h sodium/crypto_secretstream_xchacha20poly1305.h sodium/crypto_shorthash.h sodium/crypto_shorthash_siphash24.h '/usr/include/sodium'
+ /bin/mkdir -p '/usr/include/sodium'
+ /usr/bin/install -c -m 644  sodium/crypto_sign.h sodium/crypto_sign_ed25519.h sodium/crypto_sign_edwards25519sha512batch.h sodium/crypto_stream.h sodium/crypto_stream_chacha20.h sodium/crypto_stream_salsa20.h sodium/crypto_stream_salsa2012.h sodium/crypto_stream_salsa208.h sodium/crypto_stream_xchacha20.h sodium/crypto_stream_xsalsa20.h sodium/crypto_verify_16.h sodium/crypto_verify_32.h sodium/crypto_verify_64.h sodium/export.h sodium/randombytes.h sodium/randombytes_salsa20_random.h sodium/randombytes_sysrandom.h sodium/runtime.h sodium/utils.h '/usr/include/sodium'
+ /usr/bin/install -c -m 644  sodium.h '/usr/include/.'
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/sodium'
+ /usr/bin/install -c -m 644  sodium/version.h '/usr/include/sodium'
+make[4]: Leaving directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[3]: Leaving directory '/root/libsodium-1.0.17/src/libsodium/include'
+make[3]: Entering directory '/root/libsodium-1.0.17/src/libsodium'
+make[4]: Entering directory '/root/libsodium-1.0.17/src/libsodium'
+ /bin/mkdir -p '/usr/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libsodium.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libsodium.so.23.2.0 /usr/lib/libsodium.so.23.2.0
+libtool: install: (cd /usr/lib && { ln -s -f libsodium.so.23.2.0 libsodium.so.23 || { rm -f libsodium.so.23 && ln -s libsodium.so.23.2.0 libsodium.so.23; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsodium.so.23.2.0 libsodium.so || { rm -f libsodium.so && ln -s libsodium.so.23.2.0 libsodium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsodium.lai /usr/lib/libsodium.la
+libtool: install: /usr/bin/install -c .libs/libsodium.a /usr/lib/libsodium.a
+libtool: install: chmod 644 /usr/lib/libsodium.a
+libtool: install: ranlib /usr/lib/libsodium.a
+libtool: finish: PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/root/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/root/libsodium-1.0.17/src/libsodium'
+make[3]: Leaving directory '/root/libsodium-1.0.17/src/libsodium'
+make[2]: Leaving directory '/root/libsodium-1.0.17/src/libsodium'
+make[2]: Entering directory '/root/libsodium-1.0.17/src'
+make[3]: Entering directory '/root/libsodium-1.0.17/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/root/libsodium-1.0.17/src'
+make[2]: Leaving directory '/root/libsodium-1.0.17/src'
+make[1]: Leaving directory '/root/libsodium-1.0.17/src'
+Making install in test
+make[1]: Entering directory '/root/libsodium-1.0.17/test'
+Making install in default
+make[2]: Entering directory '/root/libsodium-1.0.17/test/default'
+make[3]: Entering directory '/root/libsodium-1.0.17/test/default'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/root/libsodium-1.0.17/test/default'
+make[2]: Leaving directory '/root/libsodium-1.0.17/test/default'
+make[2]: Entering directory '/root/libsodium-1.0.17/test'
+make[3]: Entering directory '/root/libsodium-1.0.17/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/root/libsodium-1.0.17/test'
+make[2]: Leaving directory '/root/libsodium-1.0.17/test'
+make[1]: Leaving directory '/root/libsodium-1.0.17/test'
+make[1]: Entering directory '/root/libsodium-1.0.17'
+make[2]: Entering directory '/root/libsodium-1.0.17'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libsodium.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/root/libsodium-1.0.17'
+make[1]: Leaving directory '/root/libsodium-1.0.17'
+mbedtls-2.16.0-gpl.tgz not found, download now...
+--2019-09-18 04:48:45--  https://tls.mbed.org/download/mbedtls-2.16.0-gpl.tgz
+Resolving tls.mbed.org (tls.mbed.org)... 79.170.91.36
+Connecting to tls.mbed.org (tls.mbed.org)|79.170.91.36|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2515339 (2.4M) [application/x-gzip]
+Saving to: ‘mbedtls-2.16.0-gpl.tgz’
+
+     0K .......... .......... .......... .......... ..........  2%  101K 24s
+    50K .......... .......... .......... .......... ..........  4%  201K 18s
+   100K .......... .......... .......... .......... ..........  6% 21.1M 12s
+   150K .......... .......... .......... .......... ..........  8% 1.23M 9s
+   200K .......... .......... .......... .......... .......... 10%  240K 9s
+   250K .......... .......... .......... .......... .......... 12% 16.1M 7s
+   300K .......... .......... .......... .......... .......... 14% 30.1M 6s
+   350K .......... .......... .......... .......... .......... 16% 1.39M 5s
+   400K .......... .......... .......... .......... .......... 18%  241K 6s
+   450K .......... .......... .......... .......... .......... 20% 11.7M 5s
+   500K .......... .......... .......... .......... .......... 22% 11.5M 4s
+   550K .......... .......... .......... .......... .......... 24% 17.5M 4s
+   600K .......... .......... .......... .......... .......... 26% 22.0M 3s
+   650K .......... .......... .......... .......... .......... 28% 17.5M 3s
+   700K .......... .......... .......... .......... .......... 30% 21.2M 3s
+   750K .......... .......... .......... .......... .......... 32% 2.14M 3s
+   800K .......... .......... .......... .......... .......... 34%  242K 3s
+   850K .......... .......... .......... .......... .......... 36% 21.5M 3s
+   900K .......... .......... .......... .......... .......... 38% 22.0M 2s
+   950K .......... .......... .......... .......... .......... 40% 14.1M 2s
+  1000K .......... .......... .......... .......... .......... 42% 23.4M 2s
+  1050K .......... .......... .......... .......... .......... 44% 22.4M 2s
+  1100K .......... .......... .......... .......... .......... 46% 25.6M 2s
+  1150K .......... .......... .......... .......... .......... 48% 20.9M 2s
+  1200K .......... .......... .......... .......... .......... 50% 26.8M 1s
+  1250K .......... .......... .......... .......... .......... 52% 25.5M 1s
+  1300K .......... .......... .......... .......... .......... 54% 27.7M 1s
+  1350K .......... .......... .......... .......... .......... 56% 24.2M 1s
+  1400K .......... .......... .......... .......... .......... 59% 27.1M 1s
+  1450K .......... .......... .......... .......... .......... 61% 28.0M 1s
+  1500K .......... .......... .......... .......... .......... 63% 25.3M 1s
+  1550K .......... .......... .......... .......... .......... 65% 3.92M 1s
+  1600K .......... .......... .......... .......... .......... 67% 21.9M 1s
+  1650K .......... .......... .......... .......... .......... 69% 27.4M 1s
+  1700K .......... .......... .......... .......... .......... 71%  243K 1s
+  1750K .......... .......... .......... .......... .......... 73% 21.8M 1s
+  1800K .......... .......... .......... .......... .......... 75% 22.6M 1s
+  1850K .......... .......... .......... .......... .......... 77% 20.1M 1s
+  1900K .......... .......... .......... .......... .......... 79% 26.0M 0s
+  1950K .......... .......... .......... .......... .......... 81% 22.9M 0s
+  2000K .......... .......... .......... .......... .......... 83% 26.8M 0s
+  2050K .......... .......... .......... .......... .......... 85% 27.5M 0s
+  2100K .......... .......... .......... .......... .......... 87% 26.7M 0s
+  2150K .......... .......... .......... .......... .......... 89% 22.8M 0s
+  2200K .......... .......... .......... .......... .......... 91% 26.5M 0s
+  2250K .......... .......... .......... .......... .......... 93% 25.1M 0s
+  2300K .......... .......... .......... .......... .......... 95% 27.3M 0s
+  2350K .......... .......... .......... .......... .......... 97% 23.7M 0s
+  2400K .......... .......... .......... .......... .......... 99% 28.3M 0s
+  2450K ......                                                100% 13.7M=1.8s
+
+2019-09-18 04:48:49 (1.36 MB/s) - ‘mbedtls-2.16.0-gpl.tgz’ saved [2515339/2515339]
+
+  CC    aes.c
+  CC    aesni.c
+  CC    arc4.c
+  CC    aria.c
+  CC    asn1parse.c
+  CC    asn1write.c
+  CC    base64.c
+  CC    bignum.c
+  CC    blowfish.c
+  CC    camellia.c
+  CC    ccm.c
+  CC    chacha20.c
+  CC    chachapoly.c
+  CC    cipher.c
+  CC    cipher_wrap.c
+  CC    cmac.c
+  CC    ctr_drbg.c
+  CC    des.c
+  CC    dhm.c
+  CC    ecdh.c
+  CC    ecdsa.c
+  CC    ecjpake.c
+  CC    ecp.c
+  CC    ecp_curves.c
+  CC    entropy.c
+  CC    entropy_poll.c
+  CC    error.c
+  CC    gcm.c
+  CC    havege.c
+  CC    hkdf.c
+  CC    hmac_drbg.c
+  CC    md.c
+  CC    md2.c
+  CC    md4.c
+  CC    md5.c
+  CC    md_wrap.c
+  CC    memory_buffer_alloc.c
+  CC    nist_kw.c
+  CC    oid.c
+  CC    padlock.c
+  CC    pem.c
+  CC    pk.c
+  CC    pk_wrap.c
+  CC    pkcs12.c
+  CC    pkcs5.c
+  CC    pkparse.c
+  CC    pkwrite.c
+  CC    platform.c
+  CC    platform_util.c
+  CC    poly1305.c
+  CC    ripemd160.c
+  CC    rsa_internal.c
+  CC    rsa.c
+  CC    sha1.c
+  CC    sha256.c
+  CC    sha512.c
+  CC    threading.c
+  CC    timing.c
+  CC    version.c
+  CC    version_features.c
+  CC    xtea.c
+  LD    libmbedcrypto.so.3
+  LN    libmbedcrypto.so -> libmbedcrypto.so.3
+  CC    certs.c
+  CC    pkcs11.c
+  CC    x509.c
+  CC    x509_create.c
+  CC    x509_crl.c
+  CC    x509_crt.c
+  CC    x509_csr.c
+  CC    x509write_crt.c
+  CC    x509write_csr.c
+  LD    libmbedx509.so.0
+  LN    libmbedx509.so -> libmbedx509.so.0
+  CC    debug.c
+  CC    net_sockets.c
+  CC    ssl_cache.c
+  CC    ssl_ciphersuites.c
+  CC    ssl_cli.c
+  CC    ssl_cookie.c
+  CC    ssl_srv.c
+  CC    ssl_ticket.c
+  CC    ssl_tls.c
+  LD    libmbedtls.so.12
+  LN    libmbedtls.so -> libmbedtls.so.12
+  AR    libmbedcrypto.a
+  AR    libmbedx509.a
+  AR    libmbedtls.a
+  CC    aes/aescrypt2.c
+  CC    aes/crypt_and_hash.c
+  CC    hash/hello.c
+  CC    hash/generic_sum.c
+  CC    pkey/dh_client.c
+  CC    pkey/dh_genprime.c
+  CC    pkey/dh_server.c
+  CC    pkey/ecdh_curve25519.c
+  CC    pkey/ecdsa.c
+  CC    pkey/gen_key.c
+  CC    pkey/key_app.c
+  CC    pkey/key_app_writer.c
+  CC    pkey/mpi_demo.c
+  CC    pkey/pk_decrypt.c
+  CC    pkey/pk_encrypt.c
+  CC    pkey/pk_sign.c
+  CC    pkey/pk_verify.c
+  CC    pkey/rsa_genkey.c
+  CC    pkey/rsa_decrypt.c
+  CC    pkey/rsa_encrypt.c
+  CC    pkey/rsa_sign.c
+  CC    pkey/rsa_verify.c
+  CC    pkey/rsa_sign_pss.c
+  CC    pkey/rsa_verify_pss.c
+  CC    ssl/dtls_client.c
+  CC    ssl/dtls_server.c
+  CC    ssl/ssl_client1.c
+  CC    ssl/ssl_client2.c
+  CC    ssl/ssl_server.c
+  CC    ssl/ssl_server2.c
+  CC    ssl/ssl_fork_server.c
+  CC    ssl/mini_client.c
+  CC    ssl/ssl_mail_client.c
+  CC    random/gen_entropy.c
+  CC    random/gen_random_havege.c
+  CC    random/gen_random_ctr_drbg.c
+  CC    test/ssl_cert_test.c
+  CC    test/benchmark.c
+  CC    test/selftest.c
+  CC    test/udp_proxy.c
+  CC    test/zeroize.c
+  CC    util/pem2der.c
+  CC    util/strerror.c
+  CC    x509/cert_app.c
+  CC    x509/crl_app.c
+  CC    x509/cert_req.c
+  CC    x509/cert_write.c
+  CC    x509/req_app.c
+  Gen   test_suite_pkparse.c
+  CC    test_suite_pkparse.c
+  Gen   test_suite_version.c
+  CC    test_suite_version.c
+  Gen   test_suite_x509write.c
+  CC    test_suite_x509write.c
+  Gen   test_suite_des.c
+  CC    test_suite_des.c
+  Gen   test_suite_cipher.aes.c
+  CC    test_suite_cipher.aes.c
+  Gen   test_suite_gcm.misc.c
+  CC    test_suite_gcm.misc.c
+  Gen   test_suite_gcm.aes192_de.c
+  CC    test_suite_gcm.aes192_de.c
+  Gen   test_suite_cipher.arc4.c
+  CC    test_suite_cipher.arc4.c
+  Gen   test_suite_ssl.c
+  CC    test_suite_ssl.c
+  Gen   test_suite_gcm.aes256_en.c
+  CC    test_suite_gcm.aes256_en.c
+  Gen   test_suite_aes.cfb.c
+  CC    test_suite_aes.cfb.c
+  Gen   test_suite_ecp.c
+  CC    test_suite_ecp.c
+  Gen   test_suite_pkcs1_v15.c
+  CC    test_suite_pkcs1_v15.c
+  Gen   test_suite_cipher.ccm.c
+  CC    test_suite_cipher.ccm.c
+  Gen   test_suite_aes.ecb.c
+  CC    test_suite_aes.ecb.c
+  Gen   test_suite_gcm.aes128_de.c
+  CC    test_suite_gcm.aes128_de.c
+  Gen   test_suite_cipher.chachapoly.c
+  CC    test_suite_cipher.chachapoly.c
+  Gen   test_suite_mpi.c
+  CC    test_suite_mpi.c
+  Gen   test_suite_memory_buffer_alloc.c
+  CC    test_suite_memory_buffer_alloc.c
+  Gen   test_suite_gcm.camellia.c
+  CC    test_suite_gcm.camellia.c
+  Gen   test_suite_pem.c
+  CC    test_suite_pem.c
+  Gen   test_suite_aes.ofb.c
+  CC    test_suite_aes.ofb.c
+  Gen   test_suite_chacha20.c
+  CC    test_suite_chacha20.c
+  Gen   test_suite_cipher.padding.c
+  CC    test_suite_cipher.padding.c
+  Gen   test_suite_base64.c
+  CC    test_suite_base64.c
+  Gen   test_suite_ctr_drbg.c
+  CC    test_suite_ctr_drbg.c
+  Gen   test_suite_ecdsa.c
+  CC    test_suite_ecdsa.c
+  Gen   test_suite_ecdh.c
+  CC    test_suite_ecdh.c
+  Gen   test_suite_cipher.blowfish.c
+  CC    test_suite_cipher.blowfish.c
+  Gen   test_suite_camellia.c
+  CC    test_suite_camellia.c
+  Gen   test_suite_pkcs5.c
+  CC    test_suite_pkcs5.c
+  Gen   test_suite_cipher.gcm.c
+  CC    test_suite_cipher.gcm.c
+  Gen   test_suite_md.c
+  CC    test_suite_md.c
+  Gen   test_suite_aes.xts.c
+  CC    test_suite_aes.xts.c
+  Gen   test_suite_entropy.c
+  CC    test_suite_entropy.c
+  Gen   test_suite_cipher.des.c
+  CC    test_suite_cipher.des.c
+  Gen   test_suite_error.c
+  CC    test_suite_error.c
+  Gen   test_suite_aes.rest.c
+  CC    test_suite_aes.rest.c
+  Gen   test_suite_aria.c
+  CC    test_suite_aria.c
+  Gen   test_suite_aes.cbc.c
+  CC    test_suite_aes.cbc.c
+  Gen   test_suite_ccm.c
+  CC    test_suite_ccm.c
+  Gen   test_suite_asn1write.c
+  CC    test_suite_asn1write.c
+  Gen   test_suite_poly1305.c
+  CC    test_suite_poly1305.c
+  Gen   test_suite_hmac_drbg.no_reseed.c
+  CC    test_suite_hmac_drbg.no_reseed.c
+  Gen   test_suite_gcm.aes192_en.c
+  CC    test_suite_gcm.aes192_en.c
+  Gen   test_suite_blowfish.c
+  CC    test_suite_blowfish.c
+  Gen   test_suite_arc4.c
+  CC    test_suite_arc4.c
+  Gen   test_suite_pkwrite.c
+  CC    test_suite_pkwrite.c
+  Gen   test_suite_hmac_drbg.nopr.c
+  CC    test_suite_hmac_drbg.nopr.c
+  Gen   test_suite_hmac_drbg.pr.c
+  CC    test_suite_hmac_drbg.pr.c
+  Gen   test_suite_nist_kw.c
+  CC    test_suite_nist_kw.c
+  Gen   test_suite_chachapoly.c
+  CC    test_suite_chachapoly.c
+  Gen   test_suite_rsa.c
+  CC    test_suite_rsa.c
+  Gen   test_suite_timing.c
+  CC    test_suite_timing.c
+  Gen   test_suite_gcm.aes128_en.c
+  CC    test_suite_gcm.aes128_en.c
+  Gen   test_suite_cipher.camellia.c
+  CC    test_suite_cipher.camellia.c
+  Gen   test_suite_cmac.c
+  CC    test_suite_cmac.c
+  Gen   test_suite_cipher.misc.c
+  CC    test_suite_cipher.misc.c
+  Gen   test_suite_mdx.c
+  CC    test_suite_mdx.c
+  Gen   test_suite_xtea.c
+  CC    test_suite_xtea.c
+  Gen   test_suite_shax.c
+  CC    test_suite_shax.c
+  Gen   test_suite_debug.c
+  CC    test_suite_debug.c
+  Gen   test_suite_cipher.chacha20.c
+  CC    test_suite_cipher.chacha20.c
+  Gen   test_suite_x509parse.c
+  CC    test_suite_x509parse.c
+  Gen   test_suite_gcm.aes256_de.c
+  CC    test_suite_gcm.aes256_de.c
+  Gen   test_suite_hmac_drbg.misc.c
+  CC    test_suite_hmac_drbg.misc.c
+  Gen   test_suite_cipher.null.c
+  CC    test_suite_cipher.null.c
+  Gen   test_suite_ecjpake.c
+  CC    test_suite_ecjpake.c
+  Gen   test_suite_pkcs1_v21.c
+  CC    test_suite_pkcs1_v21.c
+  Gen   test_suite_hkdf.c
+  CC    test_suite_hkdf.c
+  Gen   test_suite_dhm.c
+  CC    test_suite_dhm.c
+  Gen   test_suite_pk.c
+  CC    test_suite_pk.c
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for pcre-config... pcre-config
+checking for pcre headers in ... not found
+checking for library containing pcre_exec... -lpcre
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking pcre/pcre.h usability... no
+checking pcre/pcre.h presence... no
+checking for pcre/pcre.h... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for thread local storage (TLS) class... __thread
+checking for mbedtls_cipher_setup in -lmbedcrypto... yes
+checking whether mbedtls supports Cipher Feedback mode or not... ok
+checking whether mbedtls supports the ARC4 stream cipher or not... ok
+checking whether mbedtls supports the Blowfish block cipher or not... ok
+checking whether mbedtls supports the Camellia block cipher or not... ok
+checking for sodium_init in -lsodium... yes
+checking for version of libsodium... yes
+checking for ares_library_init in -lcares... yes
+checking for C/C++ restrict keyword... __restrict
+checking for netdb.h... yes
+checking for library containing inet_ntop... none required
+checking whether inet_ntop is declared... yes
+checking for what kind of host... Linux
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking if -fstack-protector and -fstack-protector-all are supported.... yes
+configure: -fstack-protector enabled in CFLAGS
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking linux/tcp.h usability... yes
+checking linux/tcp.h presence... yes
+checking for linux/tcp.h... yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking for netdb.h... (cached) yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking linux/random.h usability... yes
+checking linux/random.h presence... yes
+checking for linux/random.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for net/if.h... yes
+checking for linux/if.h... yes
+checking for linux/netfilter_ipv4.h... yes
+checking for linux/netfilter_ipv6/ip6_tables.h... yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for ssize_t... yes
+checking whether to enable assertions... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for ssize_t... (cached) yes
+checking for uint16_t... yes
+checking for uint8_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking return type of signal handlers... void
+checking for memset... yes
+checking for select... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for strerror... yes
+checking for get_current_dir_name... yes
+checking for getpwnam_r... yes
+checking for setrlimit... yes
+checking for connect in -lsocket... no
+checking for malloc... yes
+checking for memset... (cached) yes
+checking for posix_memalign... yes
+checking for socket... yes
+checking ev.h usability... yes
+checking ev.h presence... yes
+checking for ev.h... yes
+checking libev/ev.h usability... no
+checking libev/ev.h presence... no
+checking for libev/ev.h... no
+checking for ev_loop_destroy in -lev... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating shadowsocks-libev.pc
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating libbloom/Makefile
+config.status: creating libcork/Makefile
+config.status: creating libipset/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1'
+Making all in libcork
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libcork'
+  CC       src/libcork/cli/libcork_la-commands.lo
+  CC       src/libcork/core/libcork_la-allocator.lo
+  CC       src/libcork/core/libcork_la-error.lo
+  CC       src/libcork/core/libcork_la-gc.lo
+  CC       src/libcork/core/libcork_la-hash.lo
+  CC       src/libcork/core/libcork_la-ip-address.lo
+  CC       src/libcork/core/libcork_la-mempool.lo
+  CC       src/libcork/core/libcork_la-timestamp.lo
+  CC       src/libcork/core/libcork_la-u128.lo
+  CC       src/libcork/ds/libcork_la-array.lo
+  CC       src/libcork/ds/libcork_la-bitset.lo
+  CC       src/libcork/ds/libcork_la-buffer.lo
+  CC       src/libcork/ds/libcork_la-dllist.lo
+  CC       src/libcork/ds/libcork_la-file-stream.lo
+  CC       src/libcork/ds/libcork_la-hash-table.lo
+  CC       src/libcork/ds/libcork_la-managed-buffer.lo
+  CC       src/libcork/ds/libcork_la-ring-buffer.lo
+  CC       src/libcork/ds/libcork_la-slice.lo
+  CC       src/libcork/posix/libcork_la-directory-walker.lo
+  CC       src/libcork/posix/libcork_la-env.lo
+  CC       src/libcork/posix/libcork_la-exec.lo
+  CC       src/libcork/posix/libcork_la-files.lo
+  CC       src/libcork/posix/libcork_la-process.lo
+  CC       src/libcork/posix/libcork_la-subprocess.lo
+  CC       src/libcork/pthreads/libcork_la-thread.lo
+  CCLD     libcork.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libcork'
+Making all in libipset
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libipset'
+  CC       src/libipset/libipset_la-general.lo
+  CC       src/libipset/bdd/libipset_la-assignments.lo
+  CC       src/libipset/bdd/libipset_la-basics.lo
+  CC       src/libipset/bdd/libipset_la-bdd-iterator.lo
+  CC       src/libipset/bdd/libipset_la-expanded.lo
+  CC       src/libipset/bdd/libipset_la-reachable.lo
+  CC       src/libipset/bdd/libipset_la-read.lo
+  CC       src/libipset/bdd/libipset_la-write.lo
+  CC       src/libipset/map/libipset_la-allocation.lo
+  CC       src/libipset/map/libipset_la-inspection.lo
+  CC       src/libipset/map/libipset_la-ipv4_map.lo
+  CC       src/libipset/map/libipset_la-ipv6_map.lo
+  CC       src/libipset/map/libipset_la-storage.lo
+  CC       src/libipset/set/libipset_la-allocation.lo
+  CC       src/libipset/set/libipset_la-inspection.lo
+  CC       src/libipset/set/libipset_la-ipv4_set.lo
+  CC       src/libipset/set/libipset_la-ipv6_set.lo
+  CC       src/libipset/set/libipset_la-iterator.lo
+  CC       src/libipset/set/libipset_la-storage.lo
+  CCLD     libipset.la
+copying selected object files to avoid basename conflicts...
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libipset'
+Making all in libbloom
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libbloom'
+  CC       libbloom_la-bloom.lo
+  CC       murmur2/libbloom_la-MurmurHash2.lo
+  CCLD     libbloom.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libbloom'
+Making all in src
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/src'
+  CC       libshadowsocks_libev_la-local.lo
+  CC       libshadowsocks_libev_la-utils.lo
+  CC       libshadowsocks_libev_la-jconf.lo
+  CC       libshadowsocks_libev_la-json.lo
+  CC       libshadowsocks_libev_la-udprelay.lo
+  CC       libshadowsocks_libev_la-cache.lo
+  CC       libshadowsocks_libev_la-netutils.lo
+  CC       libshadowsocks_libev_la-crypto.lo
+  CC       libshadowsocks_libev_la-aead.lo
+  CC       libshadowsocks_libev_la-stream.lo
+  CC       libshadowsocks_libev_la-ppbloom.lo
+  CC       libshadowsocks_libev_la-base64.lo
+  CC       libshadowsocks_libev_la-plugin.lo
+  CC       libshadowsocks_libev_la-http.lo
+  CC       libshadowsocks_libev_la-tls.lo
+  CC       libshadowsocks_libev_la-rule.lo
+  CC       libshadowsocks_libev_la-acl.lo
+  CCLD     libshadowsocks-libev.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       ss_local-local.o
+  CC       ss_local-utils.o
+  CC       ss_local-jconf.o
+  CC       ss_local-json.o
+  CC       ss_local-udprelay.o
+  CC       ss_local-cache.o
+  CC       ss_local-netutils.o
+  CC       ss_local-crypto.o
+  CC       ss_local-aead.o
+  CC       ss_local-stream.o
+  CC       ss_local-ppbloom.o
+  CC       ss_local-base64.o
+  CC       ss_local-plugin.o
+  CC       ss_local-http.o
+  CC       ss_local-tls.o
+  CC       ss_local-rule.o
+  CC       ss_local-acl.o
+  CCLD     ss-local
+  CC       ss_tunnel-tunnel.o
+  CC       ss_tunnel-utils.o
+  CC       ss_tunnel-jconf.o
+  CC       ss_tunnel-json.o
+  CC       ss_tunnel-udprelay.o
+  CC       ss_tunnel-cache.o
+  CC       ss_tunnel-netutils.o
+  CC       ss_tunnel-crypto.o
+  CC       ss_tunnel-aead.o
+  CC       ss_tunnel-stream.o
+  CC       ss_tunnel-ppbloom.o
+  CC       ss_tunnel-base64.o
+  CC       ss_tunnel-plugin.o
+  CCLD     ss-tunnel
+  CC       ss_server-resolv.o
+  CC       ss_server-server.o
+  CC       ss_server-utils.o
+  CC       ss_server-jconf.o
+  CC       ss_server-json.o
+  CC       ss_server-udprelay.o
+  CC       ss_server-cache.o
+  CC       ss_server-netutils.o
+  CC       ss_server-crypto.o
+  CC       ss_server-aead.o
+  CC       ss_server-stream.o
+  CC       ss_server-ppbloom.o
+  CC       ss_server-base64.o
+  CC       ss_server-plugin.o
+  CC       ss_server-http.o
+  CC       ss_server-tls.o
+  CC       ss_server-rule.o
+  CC       ss_server-acl.o
+  CCLD     ss-server
+  CC       ss_manager-utils.o
+  CC       ss_manager-jconf.o
+  CC       ss_manager-json.o
+  CC       ss_manager-netutils.o
+  CC       ss_manager-manager.o
+  CCLD     ss-manager
+  CC       ss_redir-utils.o
+  CC       ss_redir-jconf.o
+  CC       ss_redir-json.o
+  CC       ss_redir-netutils.o
+  CC       ss_redir-cache.o
+  CC       ss_redir-udprelay.o
+  CC       ss_redir-redir.o
+  CC       ss_redir-crypto.o
+  CC       ss_redir-aead.o
+  CC       ss_redir-stream.o
+  CC       ss_redir-ppbloom.o
+  CC       ss_redir-base64.o
+  CC       ss_redir-plugin.o
+  CCLD     ss-redir
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/src'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1'
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1'
+Making install in libcork
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1/libcork'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libcork'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libcork'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1/libcork'
+Making install in libipset
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1/libipset'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libipset'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libipset'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1/libipset'
+Making install in libbloom
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1/libbloom'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/libbloom'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/libbloom'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1/libbloom'
+Making install in src
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1/src'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1/src'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libshadowsocks-libev.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libshadowsocks-libev.lai /usr/local/lib/libshadowsocks-libev.la
+libtool: install: /usr/bin/install -c .libs/libshadowsocks-libev.a /usr/local/lib/libshadowsocks-libev.a
+libtool: install: chmod 644 /usr/local/lib/libshadowsocks-libev.a
+libtool: install: ranlib /usr/local/lib/libshadowsocks-libev.a
+libtool: finish: PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/root/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c ss-local ss-tunnel ss-server ss-manager ss-redir '/usr/local/bin'
+libtool: install: /usr/bin/install -c ss-local /usr/local/bin/ss-local
+libtool: install: /usr/bin/install -c ss-tunnel /usr/local/bin/ss-tunnel
+libtool: install: /usr/bin/install -c ss-server /usr/local/bin/ss-server
+libtool: install: /usr/bin/install -c ss-manager /usr/local/bin/ss-manager
+libtool: install: /usr/bin/install -c ss-redir /usr/local/bin/ss-redir
+ /bin/mkdir -p '/usr/local/bin'
+ /usr/bin/install -c ss-nat '/usr/local/bin'
+ /bin/mkdir -p '/usr/local/include'
+ /usr/bin/install -c -m 644 shadowsocks.h '/usr/local/include'
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1/src'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1/src'
+make[1]: Entering directory '/root/shadowsocks-libev-3.3.1'
+make[2]: Entering directory '/root/shadowsocks-libev-3.3.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 shadowsocks-libev.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory '/root/shadowsocks-libev-3.3.1'
+make[1]: Leaving directory '/root/shadowsocks-libev-3.3.1'
+Cloning into 'simple-obfs'...
+Submodule 'libcork' (https://github.com/shadowsocks/libcork.git) registered for path 'libcork'
+Cloning into '/root/simple-obfs/libcork'...
+Submodule path 'libcork': checked out 'f02984545061c924808e4b9ea7cc6749a41f1979'
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'auto'.
+libtoolize: copying file 'auto/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:13: installing 'auto/ar-lib'
+configure.ac:10: installing 'auto/compile'
+configure.ac:21: installing 'auto/config.guess'
+configure.ac:21: installing 'auto/config.sub'
+configure.ac:12: installing 'auto/install-sh'
+configure.ac:12: installing 'auto/missing'
+libcork/Makefile.am: installing 'auto/depcomp'
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for thread local storage (TLS) class... __thread
+checking for C/C++ restrict keyword... __restrict
+checking for netdb.h... yes
+checking for library containing inet_ntop... none required
+checking whether inet_ntop is declared... yes
+checking for what kind of host... Linux
+checking if -fstack-protector and -fstack-protector-all are supported.... yes
+configure: -fstack-protector enabled in CFLAGS
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for netdb.h... (cached) yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for net/if.h... yes
+checking for linux/if.h... yes
+checking for linux/netfilter_ipv4.h... yes
+checking for linux/netfilter_ipv6/ip6_tables.h... yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for ssize_t... yes
+checking whether to enable assertions... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for ssize_t... (cached) yes
+checking for uint16_t... yes
+checking for uint8_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking return type of signal handlers... void
+checking for memset... yes
+checking for select... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for strerror... yes
+checking for getpwnam_r... yes
+checking for setrlimit... yes
+checking for connect in -lsocket... no
+checking for malloc... yes
+checking for memset... (cached) yes
+checking for socket... yes
+checking for ev_loop_destroy in -lev... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libcork/Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/root/simple-obfs'
+Making all in libcork
+make[2]: Entering directory '/root/simple-obfs/libcork'
+  CC       src/libcork/core/libcork_la-allocator.lo
+  CC       src/libcork/core/libcork_la-error.lo
+  CC       src/libcork/core/libcork_la-gc.lo
+  CC       src/libcork/core/libcork_la-hash.lo
+  CC       src/libcork/core/libcork_la-ip-address.lo
+  CC       src/libcork/core/libcork_la-mempool.lo
+  CC       src/libcork/core/libcork_la-timestamp.lo
+  CC       src/libcork/core/libcork_la-u128.lo
+  CC       src/libcork/ds/libcork_la-array.lo
+  CC       src/libcork/ds/libcork_la-bitset.lo
+  CC       src/libcork/ds/libcork_la-buffer.lo
+  CC       src/libcork/ds/libcork_la-dllist.lo
+  CC       src/libcork/ds/libcork_la-file-stream.lo
+  CC       src/libcork/ds/libcork_la-hash-table.lo
+  CC       src/libcork/ds/libcork_la-managed-buffer.lo
+  CC       src/libcork/ds/libcork_la-ring-buffer.lo
+  CC       src/libcork/ds/libcork_la-slice.lo
+  CC       src/libcork/posix/libcork_la-directory-walker.lo
+  CC       src/libcork/posix/libcork_la-env.lo
+  CC       src/libcork/posix/libcork_la-exec.lo
+  CC       src/libcork/posix/libcork_la-files.lo
+  CC       src/libcork/posix/libcork_la-process.lo
+  CCLD     libcork.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/root/simple-obfs/libcork'
+Making all in src
+make[2]: Entering directory '/root/simple-obfs/src'
+  CC       obfs_local-utils.o
+  CC       obfs_local-jconf.o
+  CC       obfs_local-json.o
+  CC       obfs_local-encrypt.o
+  CC       obfs_local-netutils.o
+  CC       obfs_local-local.o
+  CC       obfs_local-obfs_http.o
+  CC       obfs_local-obfs_tls.o
+  CC       obfs_local-options.o
+  CC       obfs_local-base64.o
+  CCLD     obfs-local
+  CC       obfs_server-utils.o
+  CC       obfs_server-netutils.o
+  CC       obfs_server-jconf.o
+  CC       obfs_server-json.o
+  CC       obfs_server-encrypt.o
+  CC       obfs_server-server.o
+  CC       obfs_server-obfs_http.o
+  CC       obfs_server-obfs_tls.o
+  CC       obfs_server-options.o
+  CC       obfs_server-base64.o
+  CCLD     obfs-server
+make[2]: Leaving directory '/root/simple-obfs/src'
+make[2]: Entering directory '/root/simple-obfs'
+make[2]: Leaving directory '/root/simple-obfs'
+make[1]: Leaving directory '/root/simple-obfs'
+Making install in libcork
+make[1]: Entering directory '/root/simple-obfs/libcork'
+make[2]: Entering directory '/root/simple-obfs/libcork'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/simple-obfs/libcork'
+make[1]: Leaving directory '/root/simple-obfs/libcork'
+Making install in src
+make[1]: Entering directory '/root/simple-obfs/src'
+make[2]: Entering directory '/root/simple-obfs/src'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c obfs-local obfs-server '/usr/local/bin'
+libtool: install: /usr/bin/install -c obfs-local /usr/local/bin/obfs-local
+libtool: install: /usr/bin/install -c obfs-server /usr/local/bin/obfs-server
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/simple-obfs/src'
+make[1]: Leaving directory '/root/simple-obfs/src'
+make[1]: Entering directory '/root/simple-obfs'
+make[2]: Entering directory '/root/simple-obfs'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/root/simple-obfs'
+make[1]: Leaving directory '/root/simple-obfs'
+[3J[H[2JStarting Shadowsocks-libev success
+
+Congratulations, [0;32mShadowsocks-libev[0m server install completed!
+Your Server IP        : [0;31m 157.245.196.9 [0m
+Your Server Port      : [0;31m 7698 [0m
+Your Password         : [0;31m xs76981364 [0m
+Your obfs             : [0;31m http [0m
+Your Encryption Method: [0;31m aes-256-gcm [0m
+
+Your QR Code: (For Shadowsocks Windows, OSX, Android and iOS clients)
+[0;32m ss://YWVzLTI1Ni1nY206eHM3Njk4MTM2NEAxNTcuMjQ1LjE5Ni45Ojc2OTg= [0m
+Your QR Code has been saved as a PNG file path:
+[0;32m /root/shadowsocks_libev_qr.png [0m
+
+Welcome to visit: https://teddysun.com/486.html
+Enjoy it!
+
